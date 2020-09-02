@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout teja:layout_height="match_parent"
+    teja:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    teja:orientation="vertical"
+    teja:weightSum="10"
+    tools:context=".MainActivity"                           
+    xmlns:teja="http://schemas.android.com/apk/res/android">
+<Button
+    teja:layout_width="match_parent"
+    teja:layout_height="0dp"
+    teja:layout_weight="1"
+    teja:text="@string/toast"
+    teja:textColor="@color/white"
+    teja:background="#0E31F1"
+    teja:onClick="toast"/>
+    <TextView
+        teja:layout_width="match_parent"
+        teja:layout_height="0dp"
+        teja:layout_weight="8"
+        teja:textColor="#EFD916"
+        teja:text="@string/_0"
+        teja:textSize="150sp"
+        teja:layout_gravity="center"
+        teja:id="@+id/tv"/>
+    <Button
+        teja:layout_width="match_parent"
+        teja:layout_height="0dp"
+        teja:layout_weight="1"
+        teja:text="@string/count"
+        teja:textColor="@color/white"
+        teja:background="#0E31F1"
+        teja:onClick="count"/>
+</LinearLayout>
